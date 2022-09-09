@@ -791,6 +791,7 @@ body {
 }
 .form-agreement-input:checked + .form-agreement-checkbox {
   background-color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 .form-agreement-input:checked + .form-agreement-checkbox .form-agreement-checkbox-icon {
   display: block;
