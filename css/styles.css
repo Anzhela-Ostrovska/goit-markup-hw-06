@@ -794,9 +794,10 @@ body {
 }
 .form-agreement-input:checked + .form-agreement-checkbox .form-agreement-checkbox-icon {
   display: block;
+  fill: var(--accent-color);
 }
 .form-agreement-input:focus + .form-agreement-checkbox {
-  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.9);
+  border-color: var(--accent-color);
 }
 .form-agreement-input {
   appearance: none;
